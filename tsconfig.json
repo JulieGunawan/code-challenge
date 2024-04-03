@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": false,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noUncheckedIndexedAccess": true,
+      "strict":true
+    }
+}

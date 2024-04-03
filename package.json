@@ -1,0 +1,33 @@
+{
+  "name": "@vividtheory/coding-challenge",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Vivid Theory Coding Challenge",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dogOrCat": "ts-node src/1-dogOrCat/dogOrCat.ts",
+    "fizzbuzz": "ts-node src/2-fizzbuzz/fizzbuzz.ts",
+    "generics": "ts-node src/3-generics/generics.ts",
+    "partialApplication": "ts-node src/4-partialApplication/partialApplication.ts",
+    "duplicates": "ts-node src/5-duplicates/duplicates.ts",
+    "reduce": "ts-node src/6-reduce/reduce.ts",
+    "stack": "ts-node src/8-stack/stack.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "jest": "^29.3.0",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.4.0",
+    "typescript": "4.7.3"
+  },
+  "engines": {
+    "node": "20.X",
+    "yarn": "1.X"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jest": "^29.2.2",
+    "axios": "^1.1.3",
+    "bcrypt": "^5.1.0"
+  }
+}
